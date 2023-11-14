@@ -6,9 +6,19 @@ body, h1, h2, h3, ul, li, a {
     text-decoration: none;
 }
 
+body{
+    background-color: #B06307;
+}
+
+/*minha biblioteca*/
+footer{
+    margin-left: 1.5rem;
+    color: rgb(255, 255, 255);;
+}
+
 /* Estilização do header */
 header {
-    background-color: rgb(7, 122, 175);
+    background-color: #077aaf;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -111,7 +121,7 @@ main {
     background: none;
     border: none;
     cursor: pointer;
-    color: #007BFF; /* Cor do ícone */
+    color: #f1dc16; /* Cor do ícone */
     font-size: 1.2rem; /* Tamanho do ícone */
     transition: color 0.3s;
 }
@@ -128,3 +138,5 @@ main {
 .icon-btn.delete:hover {
     color: #b02130; /* Cor vermelha ao passar o mouse */
 }
+
+

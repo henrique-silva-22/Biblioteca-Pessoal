@@ -142,3 +142,46 @@ main {
 
 
 
+
+#editoraPopup form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;  /* largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#editoraPopup h3 {
+    margin-bottom: 1rem;
+}
+
+#editoraPopup input[type="text"],
+#editoraPopup input[type="date"],
+#editoraPopup button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#editoraPopup button[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#editoraPopup button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+#editoraPopup #closePopupBtn {
+    background: #ccc;
+    cursor: pointer;
+}
+
+#editoraPopup #closePopupBtn:hover {
+    background: #aaa;
+}
